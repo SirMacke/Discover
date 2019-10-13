@@ -11,12 +11,12 @@ function menu() {
     contentOpacity.style.display = 'block';
     content.style.display = 'flex';
 
-    long.style.transform = 'rotate(-45deg)';
+    long.style.transform = 'rotate(45deg)';
     long.style.width = '35px';
     long.style.top = '20px';
     long.style.left = '6px';
 
-    short.style.transform = 'rotate(45deg)';
+    short.style.transform = 'rotate(-45deg)';
     short.style.width = '35px';
     short.style.top = '20px';
     short.style.left = '6px';
