@@ -27,11 +27,19 @@ function menu() {
     content.style.display = 'none';
 
     long.style.transform = 'rotate(0deg)';
-    long.style.width = '40px';
+    if (screen.width > 350) {
+      long.style.width = '40px';
+    } else {
+      long.style.width = '35px';
+    }
     long.style.top = '12.5px';
 
     short.style.transform = 'rotate(0deg)';
-    short.style.width = '30px';
+    if (screen.width > 350) {
+      short.style.width = '30px';
+    } else {
+      short.style.width = '25px';
+    }
     short.style.top = '27.5px';
 
     menuStatus = 0
