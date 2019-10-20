@@ -1,2 +1,2 @@
-# Experience Nature
+# Discover
 This is a simple design project for a camping gear renter.
